@@ -17,7 +17,7 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
-      <div id="unity-build-title">ITMO-graduate</div>
+      <div id="unity-fullscreen-button"></div>
     </div>
     <script>
       var canvas = document.querySelector("#unity-canvas");
@@ -48,12 +48,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/0696a8f95beebfe2ca587c2d241fd32f.loader.js";
+      var loaderUrl = buildUrl + "/ItmoBuild.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/210cb6a3a4010b3a5604c156f33196ce.data",
-        frameworkUrl: buildUrl + "/e5d96e1ebadf36c701cf2654c798a7a4.framework.js",
-        codeUrl: buildUrl + "/9fe298001d0b98b2b0a495c07813a651.wasm",
+        dataUrl: buildUrl + "/ItmoBuild.data",
+        frameworkUrl: buildUrl + "/ItmoBuild.framework.js",
+        codeUrl: buildUrl + "/ItmoBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ITMO-graduate",
