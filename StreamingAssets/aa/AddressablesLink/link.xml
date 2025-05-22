@@ -2,6 +2,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AudioFader" preserve="all" />
     <type fullname="CactusAnimationController" preserve="all" />
+    <type fullname="LanguageTextureSwitcher" preserve="all" />
     <type fullname="TriggerEvent" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
